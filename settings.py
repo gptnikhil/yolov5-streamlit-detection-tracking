@@ -39,8 +39,8 @@ VIDEOS_DICT = {
 # ML Model config
 MODEL_DIR = ROOT / 'weights'
 DETECTION_MODEL = MODEL_DIR / 'yolov5s-4.pt'
-SEGMENTATION_MODEL = MODEL_DIR / 'yolov8n-seg.pt'
-
+CLASSIFICATION_MODEL = MODEL_DIR / 'best_classifier_oct_24.hf5'
+FACE_DETECTOR = MODEL_DIR / 'haarcascade_frontalface_default.xml'
 # Webcam
 WEBCAM_PATH = 0
 
